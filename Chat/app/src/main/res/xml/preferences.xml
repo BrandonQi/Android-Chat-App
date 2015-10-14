@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/default_server_url"
+        android:key="@string/preference_key_server_url"
+        android:summary="Edit the server"
+        android:title="@string/title_server" />
+
+    <EditTextPreference
+        android:defaultValue="@string/default_username"
+        android:key="@string/preference_key_username"
+        android:summary="Edit your username"
+        android:title="@string/tv_user_name" />
+
+    <EditTextPreference
+        android:defaultValue="@string/default_client_id"
+        android:key="@string/preference_key_client_id"
+        android:summary="Edit your client id"
+        android:title="@string/title_client_id" />
+
+    <EditTextPreference
+        android:defaultValue="@string/default_registration_id"
+        android:key="@string/preference_key_registration_id"
+        android:summary="Edit the app uuid"
+        android:title="@string/title_app_uuid" />
+
+</PreferenceScreen>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.stevens.cs522.chat"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WIFI" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name=".activities.activityLogin"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.activityChat"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activities.activityPreference"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activities.activityPeers"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activities.activityDetail"
+            android:label="@string/app_name"></activity>
+
+        <service android:name=".services.ChatReceiverService" />
+        <service android:name=".services.ChatSenderService" />
+        <service android:name=".services.RequestService" />
+
+        <provider
+            android:name=".providers.ChatProvider"
+            android:authorities="@string/app_namespace" />
+
+        <activity
+            android:name=".activities.activityWebPeers"
+            android:label="@string/title_activity_web_peers"></activity>
+        <activity
+            android:name=".activities.activityWebPeer"
+            android:label="@string/title_activity_web_peer_detail"></activity>
+    </application>
+
+</manifest>

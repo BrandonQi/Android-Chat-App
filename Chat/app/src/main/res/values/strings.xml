@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chat_BinQi</string>
+    <string name="app_namespace">edu.stevens.cs522.chat</string>
+    <string name="sending_port">6667</string>
+    <string name="destination_host_default">10.0.2.2</string>
+    <string name="receiver_port_default">6666</string>
+    <string name="default_username">UserX</string>
+    <string name="action_message_received">ACTION_MESSAGE_RECEIVED</string>
+    <string name="default_server_url">http://10.0.2.2:8080/chat</string>
+    <string name="default_client_id">0</string>
+    <string name="default_registration_id">00000000-0000-0000-0000-000000000000</string>
+    <string name="preference_key_username">preference_key_username</string>
+    <string name="preference_key_client_id">preference_key_client_id</string>
+    <string name="preference_key_server_url">preference_key_server_url</string>
+    <string name="preference_key_registration_id">preference_key_registration_id</string>
+    <string name="action_syncing">ACTION_SYNCING</string>
+    <string name="tv_user_name">User Name</string>
+    <string name="mi_view_peers">Peers</string>
+    <string name="mi_settings">Settings</string>
+    <string name="mi_register">Register</string>
+    <string name="btn_login">Login</string>
+    <string name="tv_destination_host">Destination Host</string>
+    <string name="tv_destination_port">Destination Port</string>
+    <string name="hint_message_edit_text">Type your message here.</string>
+    <string name="btn_send">Send</string>
+    <string name="tv_host">Host</string>
+    <string name="tv_port">Port</string>
+    <string name="title_server">Server</string>
+    <string name="title_client_id">Client ID</string>
+    <string name="title_app_uuid">Identification of the app installation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_web_peers">WebPeersActivity</string>
+    <string name="title_activity_web_peer_detail">WebPeerDetailActivity</string>
+    <string name="title_sender_id">Sender ID</string>
+    <string name="title_sender_name">Sender Name</string>
+</resources>

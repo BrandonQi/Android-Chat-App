@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.stevens.cs522.chat.activities.activityLogin">
+
+    <item
+        android:id="@+id/mi_register"
+        android:icon="@drawable/ic_action_register"
+        android:showAsAction="ifRoom"
+        android:title="@string/mi_register" />
+
+    <item
+        android:id="@+id/mi_view_peers"
+        android:icon="@drawable/ic_action_view_peers"
+        android:showAsAction="ifRoom"
+        android:title="@string/mi_view_peers" />
+
+    <item
+        android:id="@+id/mi_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="ifRoom"
+        android:title="@string/mi_settings" />
+
+</menu>
